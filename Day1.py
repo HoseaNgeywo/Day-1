@@ -36,6 +36,17 @@ print('Excellent' not in y)
 
 
 if 'Exellent' not in y:
-    print('No, exellent NOT present')
+    print('No, excellent NOT present')
 else:
-    print('Yes, Exellent present')
+    print('Yes, Excellent present')
+    
+    
+# Slicing strings
+b = "  Good Morning madam?"
+print(b[-12:-2])
+
+
+# Modify strings - .upper .lower, strip(), replace(), split()
+print(b.strip())
+print(b.replace('G', 'M'))
+print(b.split(","))
