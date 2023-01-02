@@ -31,8 +31,8 @@ else:
     
 # if not
 
-y = 'Annual presidential scholarship is awarded to exellent students.'
-print('Exellent' not in y)
+y = 'Annual presidential scholarship is awarded to excellent students.'
+print('Excellent' not in y)
 
 
 if 'Exellent' not in y:
