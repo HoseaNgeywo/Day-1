@@ -35,7 +35,7 @@ y = 'Annual presidential scholarship is awarded to excellent students.'
 print('Excellent' not in y)
 
 
-if 'Exellent' not in y:
+if 'Excellent' not in y:
     print('No, excellent NOT present')
 else:
     print('Yes, Excellent present')
@@ -50,3 +50,11 @@ print(b[-12:-2])
 print(b.strip())
 print(b.replace('G', 'M'))
 print(b.split(","))
+
+
+# String concatenation
+m = 'Happy'
+n = "New"
+o = "Year"
+p = m + " " + n + " " + o
+print(p)
